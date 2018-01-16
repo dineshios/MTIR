@@ -1,0 +1,1520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		005DE9809ACDA9DF5E7ECA82E98C350B /* WYLineChartBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 116237137DFF8F3FACDD5852FC4E0A39 /* WYLineChartBackgroundView.m */; };
+		053D7EA6813F0153A4E13A8EBE2CF2FF /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B269639120634A5736A60A1CE2B868 /* YYWeakProxy.m */; };
+		058D6C02A265FEEE975E31629BEABF39 /* WYLineChartReferenceLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA351C2109261145F5B20C87DEC72B61 /* WYLineChartReferenceLineView.m */; };
+		0729077CAB19DFB78C1DD7028178738B /* WYRadarChartMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9793343456215965CA0D93CE3A7A5FF9 /* WYRadarChartMainView.m */; };
+		08C263DF6F9031C2ED55A0D16722652A /* IQUIView+IQKeyboardToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 89123E1A222D70A382B033153A87340E /* IQUIView+IQKeyboardToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08D9A697D6712DA95EBB4F77E320506E /* WYLineChartReferenceLineView.h in Headers */ = {isa = PBXBuildFile; fileRef = 09D075A10268AC05FFC52CA6D53F6FA5 /* WYLineChartReferenceLineView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0ECD7ADA33F4ABCF501AB1E192A32C0C /* WYPieChartForegroundView.h in Headers */ = {isa = PBXBuildFile; fileRef = 28DA384864ECFFAC2D6A9E6FB3360396 /* WYPieChartForegroundView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11902A4A2B53E3B10C343D7F5DFCB7B8 /* WYRadarChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E889407A82E3222D8D35BB9873BBCC3 /* WYRadarChartView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13047750AB44E00B9952AE78741A3CB7 /* WYLineChartMainLineView.h in Headers */ = {isa = PBXBuildFile; fileRef = CB7982489277E90D09857086881B701F /* WYLineChartMainLineView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1307DFA5C6BAC0A80D739B523F0D5247 /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2314674C9E3294BC107EE3B871F736 /* IQTitleBarButtonItem.m */; };
+		142EC5BED5C36E97B4639B5E82E70876 /* WYLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5C8DD7E07AFE8AB29759137EB48E56 /* WYLineChartView.m */; };
+		1453BE44240CC09697CF591EC3124F1F /* NSDate+Difference.m in Sources */ = {isa = PBXBuildFile; fileRef = FE50C97577D05BC2462EF9FB6C9C2D10 /* NSDate+Difference.m */; };
+		149E5412AC3CAF625BE3BDDD01FAAA4E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDBA94A94B982885ECCA1662BE8CD7CF /* UIKit.framework */; };
+		16E614E2FFDFB33C9CCE743FD72DDC6C /* YYWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = A2F412CC5EB02D1D848A41D584AFDC2D /* YYWeakProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17045EA58EB53C66039B73AFDA4BB11F /* IQUITextFieldView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E9A5C7965331DACEFD983E3B94446AD /* IQUITextFieldView+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		183D006015D39AB178DE4CB6A18FB3CC /* WYRadarChartDimensionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 43857506D84B3E221F838215EB21C872 /* WYRadarChartDimensionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18734F3C0D95AC6B07CA2570A27B994D /* NSArray+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = DECE96DB53D2994B9F6AB524E16AAA1F /* NSArray+Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A12AC09DAEE727DBD9D111A2B098516 /* IQKeyboardReturnKeyHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 8566306C94A85275A0E970DB72487435 /* IQKeyboardReturnKeyHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B7BE592B3200A0A7ACE704838785CBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */; };
+		1FE215BF6E333819BA7309B141A776E5 /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B75CBFE41FA66920DDCEDAAFB42BDFE /* IQUIViewController+Additions.m */; };
+		22DB5D3EA9288F23989018C4D39704A8 /* WYLineChartCoordinateView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5895D690ABD914A4C68D83D32B89441 /* WYLineChartCoordinateView.m */; };
+		230A6CC4FF1152E989B2B23E36BD9CFF /* WYChartCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = A43233FDA5BECE0FA1908DD3B619EF1F /* WYChartCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		287DB473D0F6D35B5839EDC75F207060 /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C193E9E4B38B1FD217A6EA5A17D7D1D /* IQUIView+Hierarchy.m */; };
+		28B30D7AF077B7BBD7361FB6AC3AA2BC /* IQBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = B7D87A16AFE3E1495BA3EAA07C9D1F74 /* IQBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		291917106FFE5E242919B57386FBF2D5 /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 346BF8A854A6F4EC8FAAB547B01719E0 /* IQTextView.m */; };
+		2CE1F5D65AC4F83BA81D8A1CC93EDB73 /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D37C1349826E1DE02840B004B30F63C /* IQToolbar.m */; };
+		30B095B557E92522ABF722DFE7ACFAD4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5F748DA8F98E61F788C3488D6BA25DD /* QuartzCore.framework */; };
+		366AE2A573933F601B7DEF7A62FE6657 /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = B3AA1371C69F6FEA62A4A02FE62FB98C /* IQUIScrollView+Additions.m */; };
+		389DFEDAD310A3DB6E030755A151AFFD /* Pods-testTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEF878B16E96BD7E7E99009BA40E6FD /* Pods-testTests-dummy.m */; };
+		3925A44D3628D89C93E7AA7AAB836CC6 /* WYPieChartForegroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7234BED7ECB5AD040E0100021C1FFE4F /* WYPieChartForegroundView.m */; };
+		3D51A7D14E04DEA3F615267326D9DF39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */; };
+		3DA34CB466469ADCA4BE42937E580AB8 /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 763A2E2D1A6FF066BD1D3B5F195F3839 /* IQUITextFieldView+Additions.m */; };
+		3DC00FF43965082D4FEEE4D1FB0DECE9 /* KNSemiModalViewController_hons82-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2092DCBDA7807DB8390E4E1C115C37AA /* KNSemiModalViewController_hons82-dummy.m */; };
+		4005E52555E5ECD88C055EAE1D64A48D /* WYRadarChartMainView.h in Headers */ = {isa = PBXBuildFile; fileRef = 48E2ABD27E5EEBCEB692952DC4DEBB0E /* WYRadarChartMainView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		415BF3795764F16037457F1914F75C3E /* NSDate+Difference.h in Headers */ = {isa = PBXBuildFile; fileRef = 60E5959A08F4AA21F73C039A053066F1 /* NSDate+Difference.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4265537759F6B7D4F53144196C1F12FC /* WYMainPieChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = B652DA13AA20CDD115E4907DD911818D /* WYMainPieChartView.m */; };
+		43643239F78BFE4405AD5092ACC1B176 /* IQPreviousNextView.h in Headers */ = {isa = PBXBuildFile; fileRef = A8ACC4B109569BD5E4EFCBA074214B27 /* IQPreviousNextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45B417AAD871D50F328880AE7481B2A9 /* WYLineChartCoordinateView.h in Headers */ = {isa = PBXBuildFile; fileRef = F48152E4A05321AC29AE6A162582F204 /* WYLineChartCoordinateView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48FB0558D38339DCBBA1D5117BAFC971 /* WYLineChartPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = B2EBCB180B34F439300D8F4192B0DFB2 /* WYLineChartPoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4901BCCDED468EE008A6E86B59D9969C /* THDatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FFC472D44CCEE8CAF15E121B77375FF /* THDatePickerViewController.m */; };
+		4A49D2D82248088CA84188952B9E69BA /* IQToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = C4DF44E0C5AFBE0620BF57237E9A55BA /* IQToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AA1A62EE8B2DE0609FBD86A498DD3F1 /* WYChart-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E2B23CA980C91A4743F153A10DADB7 /* WYChart-dummy.m */; };
+		4D9DAF12A0D80ABD56B5780BD49CB2A6 /* WYLineChartLabelsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 766B59C70EC531CF82DDD477BA52502F /* WYLineChartLabelsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F6210D7957ADD2938FBE880921D3AB2 /* WYPieChartCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = E73377D07D0172581DF7DBEA1C045AB1 /* WYPieChartCalculator.m */; };
+		5339D53DF08E6E2E98F13CC18A9D3B8F /* WYPieCenterCircle.h in Headers */ = {isa = PBXBuildFile; fileRef = 0126C2647BB756E0DCC34D381E495D99 /* WYPieCenterCircle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53E16175D3F285FCD0AA297379790B78 /* IQTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E94D894E896005BC8B59CF40ED414F6 /* IQTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		546EEE7896AA204EFE82ADD71D11E088 /* WYRadarChartItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9809F9F2F721E7C9088BA76DC13B5BC5 /* WYRadarChartItemView.m */; };
+		5A2FF5F16ABBFABA5EC18B9AF230429E /* IQUIWindow+Hierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = 69A8A94CC10691D0B0F5DA546F43E9C8 /* IQUIWindow+Hierarchy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CF3BBFA177DB21607B61912157BB050 /* WYLineChartCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = F6ED24F13803FAF877441939C98C81DF /* WYLineChartCalculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60EF0D14103609E77A230865F572723C /* WYPieChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A67BE753D7B118DA6EA7D80738D5F0C /* WYPieChartView.m */; };
+		612D7698019865805EFC789DCE5858AF /* IQUIView+Hierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = B1DA56453A003E8BA6780349638DC28F /* IQUIView+Hierarchy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65E85D1CC225E16C66FF845C84EC23B5 /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E024B2885CDF675AE16BFBD5888AFE4 /* IQBarButtonItem.m */; };
+		6B2C6321E1191C0C6DFCC016B43E3D81 /* WYLineChartDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B8AE73A750EA2912BE00A59AB93FE46 /* WYLineChartDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DD7A82ED48E61FD8C2BA3EA9649DD2E /* IQNSArray+Sort.h in Headers */ = {isa = PBXBuildFile; fileRef = B34D94CC5082128482106F107933246B /* IQNSArray+Sort.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7102B9C56FA582BEEAD53FBD969591CB /* WYLineChartMainLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5668EA50825AAB7B8A12B90383342B7E /* WYLineChartMainLineView.m */; };
+		71DFF4FCF490E7C2983380C32C3E05A6 /* IQKeyboardManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D5D82ABD87153A46C7A5EF3512B6161B /* IQKeyboardManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		758E8F22C29D723BB90E8A0B306D4D8D /* WYChartCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD329309363CA1D9C973983A02D5F8C /* WYChartCategory.m */; };
+		769D4A381A03A62C52FA4460D247391C /* WYRadarChartDimensionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E58C3266C4408D547EBB112557FF97A /* WYRadarChartDimensionView.m */; };
+		77DE67F588A033DB43017A7B6625F450 /* Pods-testUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1942EEE8E94EAD6026221C7E9D8EE03B /* Pods-testUITests-dummy.m */; };
+		78435610B927B7501F678EEA1FC136D9 /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 301B6EFC24878A6751BB520B03908E16 /* IQUIView+IQKeyboardToolbar.m */; };
+		7949BA708CF4E6C09A9E042F6D60566E /* NSArray+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2B98C6A82A54EC8A960358EEB7C312 /* NSArray+Utils.m */; };
+		7B70C09C8241D155758A8C417947AD5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */; };
+		7BBAE335CA7667E51CFA81BF17DD861C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3292CC8DBF6352C2BF2B949CB548248F /* CoreGraphics.framework */; };
+		7F4A62D0A31131C03C92EE642324AC9F /* WYLineChartCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4A69F20153C6E2C6244AF321E1ACE5 /* WYLineChartCalculator.m */; };
+		8121498B9DD22BC765FBDE1EDC8E2F4D /* THDateDay.h in Headers */ = {isa = PBXBuildFile; fileRef = 14A0E7C745FAA832F30CA2720E7B6BF7 /* THDateDay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81356E3F3B0398342380F9A8A284B1FB /* WYSectorLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F1DA6896DCBA61FA89B4FD496C654B2 /* WYSectorLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82BA014C81EE79BD7F043D96AB562DB6 /* IQUIScrollView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 64BE04E8D2CBEE7215A25B8C8427E9B1 /* IQUIScrollView+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8577CB81855FBF227242AA3FDDEA8F86 /* WYLineChartJunctionShape.m in Sources */ = {isa = PBXBuildFile; fileRef = D147C985FDA48696F449306C20AB1AB2 /* WYLineChartJunctionShape.m */; };
+		87F4759A96F578404EFE6516033D1200 /* UIView+WYAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F991993658D0FEEC6C875AED4446E9 /* UIView+WYAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89D07A7329A0BE34A3B5451C6D4A18A1 /* WYSectorLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 189846D56D7C91F755F595687AA895C3 /* WYSectorLayer.m */; };
+		8E42A1D761E617715DCD01AC8A99C0C4 /* UIView+WYAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDE530F9F4968947D9EAB37C29CAEE0 /* UIView+WYAnimation.m */; };
+		9216E6BF8AF8A584B78667EA7D41DE2F /* IQKeyboardManagerConstantsInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = BF4D643872F2B84F51AE82D97F4BC7CC /* IQKeyboardManagerConstantsInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		93965DB6954BD7C465FB86923921F390 /* WYLineChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = E72D9F9911E6713BCF1BABAA852DC846 /* WYLineChartView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97F27ED5A51613C68169522253F30520 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */; };
+		9865E65B9600E6B97CB23DBBA49397BE /* WYLineChartLabelsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BA54C6B70730AF8FE2EC05957F37E2 /* WYLineChartLabelsView.m */; };
+		9BAB868CD352FA0A0F9A81D0B22CDBB7 /* IQKeyboardManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF537F71FE01F5D259AE24E4683443 /* IQKeyboardManager-dummy.m */; };
+		9EA3FD1E9A7D0DF1E6464F15152243B9 /* WYPieCenterCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FCA76811C590E36DDAFF4FCF51B2DBF /* WYPieCenterCircle.m */; };
+		A2FFBC5AF7AB4ADAA4FCB847733E58E7 /* WYPieChartCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0852A272A55023A7305492BD7107AD15 /* WYPieChartCalculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8DC84F5B942614F33421402B9CA61F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */; };
+		AFAD92D8C7D7681F60E253A205725272 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5F748DA8F98E61F788C3488D6BA25DD /* QuartzCore.framework */; };
+		B38AD268CC059B266D9B4D024B4DD367 /* WYPieSector.h in Headers */ = {isa = PBXBuildFile; fileRef = 419BFC1E0B6BDD541A4F47ADB9B68697 /* WYPieSector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3A6235D661F70BB8D33265485FD1EA9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5F748DA8F98E61F788C3488D6BA25DD /* QuartzCore.framework */; };
+		B62A6E769C064D5657DF57B35F650446 /* THCalendarDatePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0389C7D44519264D3E83704ED5641297 /* THCalendarDatePicker-dummy.m */; };
+		BAD0FC3B9D02A9F3D18F8A0C5FFACF9C /* WYPieChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CD5ACBB2D7800C319E128078CBC2D95 /* WYPieChartView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB8BD2C556835E16DE6C4DDD942E12F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */; };
+		BC8B8865BDEF135CA978D83D0E3F9DDA /* WYPieSector.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A08FE7301138E682FBCA0EC7EA78F2B /* WYPieSector.m */; };
+		C0A15B8297C741F2DA9954C1F1C8FD66 /* WYLineChartBackgroundView.h in Headers */ = {isa = PBXBuildFile; fileRef = 30F8E984C5BBF695F17960ECBB858D28 /* WYLineChartBackgroundView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C25A3CE36F6D477F77AAE1CCCF454108 /* IQUIWindow+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8F28A45151D704258ED1D74875F239 /* IQUIWindow+Hierarchy.m */; };
+		C775040830F301F1C7EBFD252F694E88 /* WYLineChartPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = FB765A8D36D7EB4B8A77E8D83B552B6F /* WYLineChartPoint.m */; };
+		D5B7D8C76ECDAE3675FED3DDD52A1A1F /* IQKeyboardManagerConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = B6B1FC25BD233A57B165D2E3E856C69A /* IQKeyboardManagerConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D669024B1F874718418C4E91CC24724C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */; };
+		D6B65E7DBBF8D21997C3EE85152B95FB /* IQPreviousNextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AD1699496B7EC55180263EE22A4055 /* IQPreviousNextView.m */; };
+		D6EFB55BD1DAB063EB4657FDE2CFD986 /* WYRadarChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC8DEAE5C3539EEC0DE943DFFDEFC37 /* WYRadarChartModel.m */; };
+		D76E8958D22EAE2062CAE1A704B538F3 /* Pods-test-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4827C42E8569F18ACF89A9DF4F3F86 /* Pods-test-dummy.m */; };
+		D7F0B4172AD07FC9E4C6AA761FC069CD /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 5661D770C60FA0A4C5056F4A247B7B7F /* IQNSArray+Sort.m */; };
+		D8F46835ADAC88C918BAC63AC27F320C /* THDatePickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F1754BB09BF5A93AC473389E23522CCF /* THDatePickerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCA7CD16B95673D3BB3F2C5D4059F6E3 /* WYMainPieChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = 28CAF9F604AABE781C3B86C1C16D4C7F /* WYMainPieChartView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4B3F5CC63950ACA87A271244165EBC1 /* WYRadarChartModel.h in Headers */ = {isa = PBXBuildFile; fileRef = CEC00CA5D81EDC279611A4B2F55F8CD6 /* WYRadarChartModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E74CA3BD0386E8FEC386095AA42BB360 /* THDateDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 543D3E036C81D686F627DDA9A875299F /* THDateDay.m */; };
+		EA3C206468419DD3F043BC04B460BFC4 /* UIViewController+KNSemiModal.h in Headers */ = {isa = PBXBuildFile; fileRef = 28E06D602E98BEC63F17094BB7FD68D2 /* UIViewController+KNSemiModal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC820BB71466199D28D571622F37568A /* WYRadarChartItemView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BE8DF0FA66B578BFA4A9DBEDF55776B /* WYRadarChartItemView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F02320ABC117E8ACC68CA867458B20F5 /* IQUIViewController+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1055AB2FFFC9BB8D890A30E567AC4EBD /* IQUIViewController+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F367085B1BD58C97F9FCED8C6A0FA53E /* UIViewController+KNSemiModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 160FFD10AB23DACC98F25E2C7243FA7D /* UIViewController+KNSemiModal.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F4EB688135081A3D48508DD442CC97A5 /* WYRadarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05844192F683DF4804CC7EEF1DAE53BD /* WYRadarChartView.m */; };
+		F88EBCF213D5CDC9DD9761F38AC8851A /* IQTitleBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 60DE9DCCDAD23D4B0EEE6C901F3A42E3 /* IQTitleBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9A1A4AAC0166EB90E64F7021ADB123C /* WYLineChartJunctionShape.h in Headers */ = {isa = PBXBuildFile; fileRef = BD2E63D141579D41B429487CE860B90F /* WYLineChartJunctionShape.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD191B7D495F379CAE5D676EDD6D198B /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2C45D38D5FF3D0419355F1997EADC1 /* IQKeyboardReturnKeyHandler.m */; };
+		FD4DA8F8F51FBE50740629944BBEBAD4 /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D579D3C421D09E2D528C1BAFDC316D /* IQKeyboardManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		319055BA7807E68D1429F0A0A9FAD876 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 904F4F27FD314010A3812EB2A9306183;
+			remoteInfo = IQKeyboardManager;
+		};
+		97D9BB4A989C173A1639A0BE663A91F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D6EDEA34D2366677FFEEBEB00267BA5;
+			remoteInfo = WYChart;
+		};
+		B4B9BA66DE5BBB113035F954A62CEE9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD232CD076836DFFE27D1EA581358813;
+			remoteInfo = THCalendarDatePicker;
+		};
+		CAF57D78C072C273DC16523DDF8DD303 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06BD3D2C3F0EF1FE28983CDAA83EAC83;
+			remoteInfo = KNSemiModalViewController_hons82;
+		};
+		F36F7DDC1F1C43BA1A727AA153B0B487 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06BD3D2C3F0EF1FE28983CDAA83EAC83;
+			remoteInfo = KNSemiModalViewController_hons82;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0126C2647BB756E0DCC34D381E495D99 /* WYPieCenterCircle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYPieCenterCircle.h; path = WYChart/Classes/WYPieChart/Components/WYPieCenterCircle.h; sourceTree = "<group>"; };
+		037BF61A9CFB8E13F7CA7C7959B03412 /* Pods-testTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-testTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0389C7D44519264D3E83704ED5641297 /* THCalendarDatePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "THCalendarDatePicker-dummy.m"; sourceTree = "<group>"; };
+		05844192F683DF4804CC7EEF1DAE53BD /* WYRadarChartView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYRadarChartView.m; path = WYChart/Classes/WYRadarChart/Public/WYRadarChartView.m; sourceTree = "<group>"; };
+		0852A272A55023A7305492BD7107AD15 /* WYPieChartCalculator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYPieChartCalculator.h; path = WYChart/Classes/WYPieChart/Main/WYPieChartCalculator.h; sourceTree = "<group>"; };
+		092F2638E51C22BB2ABE29C41B1C2155 /* Pods-testTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testTests.debug.xcconfig"; sourceTree = "<group>"; };
+		09D075A10268AC05FFC52CA6D53F6FA5 /* WYLineChartReferenceLineView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYLineChartReferenceLineView.h; path = WYChart/Classes/WYLineChart/Foreground/WYLineChartReferenceLineView.h; sourceTree = "<group>"; };
+		0E94D894E896005BC8B59CF40ED414F6 /* IQTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQTextView.h; path = IQKeyboardManager/IQTextView/IQTextView.h; sourceTree = "<group>"; };
+		1055AB2FFFC9BB8D890A30E567AC4EBD /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIViewController+Additions.h"; path = "IQKeyboardManager/Categories/IQUIViewController+Additions.h"; sourceTree = "<group>"; };
+		116237137DFF8F3FACDD5852FC4E0A39 /* WYLineChartBackgroundView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYLineChartBackgroundView.m; path = WYChart/Classes/WYLineChart/Background/WYLineChartBackgroundView.m; sourceTree = "<group>"; };
+		142306E1958012317A3F0B6ABC03472C /* Pods-testTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-testTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		14A0E7C745FAA832F30CA2720E7B6BF7 /* THDateDay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = THDateDay.h; path = THCalendarDatePicker/THDateDay.h; sourceTree = "<group>"; };
+		1602B41E356D6E63FB7733A08C02F629 /* THDatePickerViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = THDatePickerViewController.xib; path = THCalendarDatePicker/THDatePickerViewController.xib; sourceTree = "<group>"; };
+		160FFD10AB23DACC98F25E2C7243FA7D /* UIViewController+KNSemiModal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+KNSemiModal.m"; path = "Source/UIViewController+KNSemiModal.m"; sourceTree = "<group>"; };
+		16B06B4733A772BB13393FDE509C05CB /* libPods-testUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-testUITests.a"; path = "libPods-testUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		189846D56D7C91F755F595687AA895C3 /* WYSectorLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYSectorLayer.m; path = WYChart/Classes/WYPieChart/Components/WYSectorLayer.m; sourceTree = "<group>"; };
+		18BA54C6B70730AF8FE2EC05957F37E2 /* WYLineChartLabelsView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYLineChartLabelsView.m; path = WYChart/Classes/WYLineChart/Foreground/WYLineChartLabelsView.m; sourceTree = "<group>"; };
+		1942EEE8E94EAD6026221C7E9D8EE03B /* Pods-testUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-testUITests-dummy.m"; sourceTree = "<group>"; };
+		1B8F08E7C8B705C4A0C7D7C3012AA50E /* Pods-testUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-testUITests-frameworks.sh"; sourceTree = "<group>"; };
+		1C193E9E4B38B1FD217A6EA5A17D7D1D /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+Hierarchy.m"; path = "IQKeyboardManager/Categories/IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
+		1FCA76811C590E36DDAFF4FCF51B2DBF /* WYPieCenterCircle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYPieCenterCircle.m; path = WYChart/Classes/WYPieChart/Components/WYPieCenterCircle.m; sourceTree = "<group>"; };
+		2092DCBDA7807DB8390E4E1C115C37AA /* KNSemiModalViewController_hons82-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KNSemiModalViewController_hons82-dummy.m"; sourceTree = "<group>"; };
+		20B269639120634A5736A60A1CE2B868 /* YYWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYWeakProxy.m; path = WYChart/Classes/WYRadarChart/Utils/YYWeakProxy.m; sourceTree = "<group>"; };
+		20F991993658D0FEEC6C875AED4446E9 /* UIView+WYAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WYAnimation.h"; path = "WYChart/Classes/WYRadarChart/Utils/UIView+WYAnimation.h"; sourceTree = "<group>"; };
+		28CAF9F604AABE781C3B86C1C16D4C7F /* WYMainPieChartView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYMainPieChartView.h; path = WYChart/Classes/WYPieChart/Components/WYMainPieChartView.h; sourceTree = "<group>"; };
+		28DA384864ECFFAC2D6A9E6FB3360396 /* WYPieChartForegroundView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYPieChartForegroundView.h; path = WYChart/Classes/WYPieChart/Components/WYPieChartForegroundView.h; sourceTree = "<group>"; };
+		28E06D602E98BEC63F17094BB7FD68D2 /* UIViewController+KNSemiModal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+KNSemiModal.h"; path = "Source/UIViewController+KNSemiModal.h"; sourceTree = "<group>"; };
+		2B2B98C6A82A54EC8A960358EEB7C312 /* NSArray+Utils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Utils.m"; path = "WYChart/Classes/WYRadarChart/Utils/NSArray+Utils.m"; sourceTree = "<group>"; };
+		2B4827C42E8569F18ACF89A9DF4F3F86 /* Pods-test-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-test-dummy.m"; sourceTree = "<group>"; };
+		2BE8DF0FA66B578BFA4A9DBEDF55776B /* WYRadarChartItemView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYRadarChartItemView.h; path = WYChart/Classes/WYRadarChart/Private/WYRadarChartItemView.h; sourceTree = "<group>"; };
+		301B6EFC24878A6751BB520B03908E16 /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+IQKeyboardToolbar.m"; path = "IQKeyboardManager/IQToolbar/IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
+		30F8E984C5BBF695F17960ECBB858D28 /* WYLineChartBackgroundView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYLineChartBackgroundView.h; path = WYChart/Classes/WYLineChart/Background/WYLineChartBackgroundView.h; sourceTree = "<group>"; };
+		313DFC5CE1CF7460EBCE2711D94D42AF /* Pods-testTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-testTests-resources.sh"; sourceTree = "<group>"; };
+		3292CC8DBF6352C2BF2B949CB548248F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		32CC9709F0F9BF5585DD582AA6804223 /* THCalendarDatePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "THCalendarDatePicker-prefix.pch"; sourceTree = "<group>"; };
+		346BF8A854A6F4EC8FAAB547B01719E0 /* IQTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQTextView.m; path = IQKeyboardManager/IQTextView/IQTextView.m; sourceTree = "<group>"; };
+		37FD3C76C47CEEA02A99351A68477FA9 /* Pods-testUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testUITests.release.xcconfig"; sourceTree = "<group>"; };
+		39AD1699496B7EC55180263EE22A4055 /* IQPreviousNextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQPreviousNextView.m; path = IQKeyboardManager/IQToolbar/IQPreviousNextView.m; sourceTree = "<group>"; };
+		419BFC1E0B6BDD541A4F47ADB9B68697 /* WYPieSector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYPieSector.h; path = WYChart/Classes/WYPieChart/Main/WYPieSector.h; sourceTree = "<group>"; };
+		43857506D84B3E221F838215EB21C872 /* WYRadarChartDimensionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYRadarChartDimensionView.h; path = WYChart/Classes/WYRadarChart/Private/WYRadarChartDimensionView.h; sourceTree = "<group>"; };
+		439796C4C0499AF5A5EBF7865AB69225 /* Pods-testTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-testTests-frameworks.sh"; sourceTree = "<group>"; };
+		448D70E7D793CFB8A2D1A1A0809FF9EA /* Pods-testUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-testUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		48E2ABD27E5EEBCEB692952DC4DEBB0E /* WYRadarChartMainView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYRadarChartMainView.h; path = WYChart/Classes/WYRadarChart/Private/WYRadarChartMainView.h; sourceTree = "<group>"; };
+		4AC8DEAE5C3539EEC0DE943DFFDEFC37 /* WYRadarChartModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYRadarChartModel.m; path = WYChart/Classes/WYRadarChart/Public/WYRadarChartModel.m; sourceTree = "<group>"; };
+		4B8AE73A750EA2912BE00A59AB93FE46 /* WYLineChartDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYLineChartDefine.h; path = WYChart/Classes/WYLineChart/Main/WYLineChartDefine.h; sourceTree = "<group>"; };
+		4DBF537F71FE01F5D259AE24E4683443 /* IQKeyboardManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQKeyboardManager-dummy.m"; sourceTree = "<group>"; };
+		4DD329309363CA1D9C973983A02D5F8C /* WYChartCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYChartCategory.m; path = WYChart/Classes/WYLineChart/Main/WYChartCategory.m; sourceTree = "<group>"; };
+		4F2C45D38D5FF3D0419355F1997EADC1 /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardReturnKeyHandler.m; path = IQKeyboardManager/IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
+		543D3E036C81D686F627DDA9A875299F /* THDateDay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = THDateDay.m; path = THCalendarDatePicker/THDateDay.m; sourceTree = "<group>"; };
+		55780579D30228D4CC23266E6264A8ED /* THDateDay.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = THDateDay.xib; path = THCalendarDatePicker/THDateDay.xib; sourceTree = "<group>"; };
+		559769170B5C28FA20887FC49B6747A2 /* Pods-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-test.debug.xcconfig"; sourceTree = "<group>"; };
+		5661D770C60FA0A4C5056F4A247B7B7F /* IQNSArray+Sort.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQNSArray+Sort.m"; path = "IQKeyboardManager/Categories/IQNSArray+Sort.m"; sourceTree = "<group>"; };
+		5668EA50825AAB7B8A12B90383342B7E /* WYLineChartMainLineView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYLineChartMainLineView.m; path = WYChart/Classes/WYLineChart/Foreground/WYLineChartMainLineView.m; sourceTree = "<group>"; };
+		5BEF878B16E96BD7E7E99009BA40E6FD /* Pods-testTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-testTests-dummy.m"; sourceTree = "<group>"; };
+		60DE9DCCDAD23D4B0EEE6C901F3A42E3 /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQTitleBarButtonItem.h; path = IQKeyboardManager/IQToolbar/IQTitleBarButtonItem.h; sourceTree = "<group>"; };
+		60E5959A08F4AA21F73C039A053066F1 /* NSDate+Difference.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+Difference.h"; path = "THCalendarDatePicker/NSDate+Difference.h"; sourceTree = "<group>"; };
+		64BE04E8D2CBEE7215A25B8C8427E9B1 /* IQUIScrollView+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIScrollView+Additions.h"; path = "IQKeyboardManager/Categories/IQUIScrollView+Additions.h"; sourceTree = "<group>"; };
+		69A8A94CC10691D0B0F5DA546F43E9C8 /* IQUIWindow+Hierarchy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIWindow+Hierarchy.h"; path = "IQKeyboardManager/Categories/IQUIWindow+Hierarchy.h"; sourceTree = "<group>"; };
+		6A3710841738DB371DF94A550E52A5B9 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = IQKeyboardManager.bundle; path = IQKeyboardManager/Resources/IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		6A67BE753D7B118DA6EA7D80738D5F0C /* WYPieChartView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYPieChartView.m; path = WYChart/Classes/WYPieChart/Main/WYPieChartView.m; sourceTree = "<group>"; };
+		6E024B2885CDF675AE16BFBD5888AFE4 /* IQBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQBarButtonItem.m; path = IQKeyboardManager/IQToolbar/IQBarButtonItem.m; sourceTree = "<group>"; };
+		6E2314674C9E3294BC107EE3B871F736 /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQTitleBarButtonItem.m; path = IQKeyboardManager/IQToolbar/IQTitleBarButtonItem.m; sourceTree = "<group>"; };
+		6FFC472D44CCEE8CAF15E121B77375FF /* THDatePickerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = THDatePickerViewController.m; path = THCalendarDatePicker/THDatePickerViewController.m; sourceTree = "<group>"; };
+		7234BED7ECB5AD040E0100021C1FFE4F /* WYPieChartForegroundView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYPieChartForegroundView.m; path = WYChart/Classes/WYPieChart/Components/WYPieChartForegroundView.m; sourceTree = "<group>"; };
+		763A2E2D1A6FF066BD1D3B5F195F3839 /* IQUITextFieldView+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUITextFieldView+Additions.m"; path = "IQKeyboardManager/Categories/IQUITextFieldView+Additions.m"; sourceTree = "<group>"; };
+		766B59C70EC531CF82DDD477BA52502F /* WYLineChartLabelsView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYLineChartLabelsView.h; path = WYChart/Classes/WYLineChart/Foreground/WYLineChartLabelsView.h; sourceTree = "<group>"; };
+		7954A4406D0F3E721B2A2FDAB1F772A0 /* WYChart.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WYChart.xcconfig; sourceTree = "<group>"; };
+		7A08FE7301138E682FBCA0EC7EA78F2B /* WYPieSector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYPieSector.m; path = WYChart/Classes/WYPieChart/Main/WYPieSector.m; sourceTree = "<group>"; };
+		7DDE530F9F4968947D9EAB37C29CAEE0 /* UIView+WYAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WYAnimation.m"; path = "WYChart/Classes/WYRadarChart/Utils/UIView+WYAnimation.m"; sourceTree = "<group>"; };
+		7E58C3266C4408D547EBB112557FF97A /* WYRadarChartDimensionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYRadarChartDimensionView.m; path = WYChart/Classes/WYRadarChart/Private/WYRadarChartDimensionView.m; sourceTree = "<group>"; };
+		7E889407A82E3222D8D35BB9873BBCC3 /* WYRadarChartView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYRadarChartView.h; path = WYChart/Classes/WYRadarChart/Public/WYRadarChartView.h; sourceTree = "<group>"; };
+		81264F3F372F71E57F6ABE1CD51CC57B /* WYChart-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYChart-prefix.pch"; sourceTree = "<group>"; };
+		83F4166E1F039A52A452F7ED70D635C1 /* IQKeyboardManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManager.xcconfig; sourceTree = "<group>"; };
+		8566306C94A85275A0E970DB72487435 /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardReturnKeyHandler.h; path = IQKeyboardManager/IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
+		89123E1A222D70A382B033153A87340E /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIView+IQKeyboardToolbar.h"; path = "IQKeyboardManager/IQToolbar/IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
+		8B75CBFE41FA66920DDCEDAAFB42BDFE /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIViewController+Additions.m"; path = "IQKeyboardManager/Categories/IQUIViewController+Additions.m"; sourceTree = "<group>"; };
+		8BE7CF1379F6A91955ECD4EA0C1493CF /* libKNSemiModalViewController_hons82.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libKNSemiModalViewController_hons82.a; path = libKNSemiModalViewController_hons82.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CD5ACBB2D7800C319E128078CBC2D95 /* WYPieChartView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYPieChartView.h; path = WYChart/Classes/WYPieChart/Main/WYPieChartView.h; sourceTree = "<group>"; };
+		8D37C1349826E1DE02840B004B30F63C /* IQToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQToolbar.m; path = IQKeyboardManager/IQToolbar/IQToolbar.m; sourceTree = "<group>"; };
+		8F1DA6896DCBA61FA89B4FD496C654B2 /* WYSectorLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYSectorLayer.h; path = WYChart/Classes/WYPieChart/Components/WYSectorLayer.h; sourceTree = "<group>"; };
+		8F6EC6B0288695E607DBA63C7AD889CA /* libPods-test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-test.a"; path = "libPods-test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90C5D981C2FC9D2FC34DCAF60E31FF6F /* KNSemiModalViewController_hons82-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KNSemiModalViewController_hons82-prefix.pch"; sourceTree = "<group>"; };
+		90F76F5FB3C3815124A21E3911E859D2 /* KNSemiModalViewController_hons82.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KNSemiModalViewController_hons82.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9793343456215965CA0D93CE3A7A5FF9 /* WYRadarChartMainView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYRadarChartMainView.m; path = WYChart/Classes/WYRadarChart/Private/WYRadarChartMainView.m; sourceTree = "<group>"; };
+		9809F9F2F721E7C9088BA76DC13B5BC5 /* WYRadarChartItemView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYRadarChartItemView.m; path = WYChart/Classes/WYRadarChart/Private/WYRadarChartItemView.m; sourceTree = "<group>"; };
+		9E9A5C7965331DACEFD983E3B94446AD /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUITextFieldView+Additions.h"; path = "IQKeyboardManager/Categories/IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
+		9F4A69F20153C6E2C6244AF321E1ACE5 /* WYLineChartCalculator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYLineChartCalculator.m; path = WYChart/Classes/WYLineChart/Main/WYLineChartCalculator.m; sourceTree = "<group>"; };
+		A2F412CC5EB02D1D848A41D584AFDC2D /* YYWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYWeakProxy.h; path = WYChart/Classes/WYRadarChart/Utils/YYWeakProxy.h; sourceTree = "<group>"; };
+		A43233FDA5BECE0FA1908DD3B619EF1F /* WYChartCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYChartCategory.h; path = WYChart/Classes/WYLineChart/Main/WYChartCategory.h; sourceTree = "<group>"; };
+		A6F3025B64B4A1F6E551D8CC5E832B2C /* Pods-test-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-test-resources.sh"; sourceTree = "<group>"; };
+		A8ACC4B109569BD5E4EFCBA074214B27 /* IQPreviousNextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQPreviousNextView.h; path = IQKeyboardManager/IQToolbar/IQPreviousNextView.h; sourceTree = "<group>"; };
+		A98D9C5B155AF6268D1F3ADC2A1BC58D /* Pods-testUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-testUITests-resources.sh"; sourceTree = "<group>"; };
+		AA8F28A45151D704258ED1D74875F239 /* IQUIWindow+Hierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIWindow+Hierarchy.m"; path = "IQKeyboardManager/Categories/IQUIWindow+Hierarchy.m"; sourceTree = "<group>"; };
+		AF5C8DD7E07AFE8AB29759137EB48E56 /* WYLineChartView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYLineChartView.m; path = WYChart/Classes/WYLineChart/Main/WYLineChartView.m; sourceTree = "<group>"; };
+		B029A48A5954C36C1F5DD3283D6151AC /* libIQKeyboardManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libIQKeyboardManager.a; path = libIQKeyboardManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0983800F339164D4CDCF1E1379ADCD5 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = THCalendarDatePicker/Images.xcassets; sourceTree = "<group>"; };
+		B1DA56453A003E8BA6780349638DC28F /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIView+Hierarchy.h"; path = "IQKeyboardManager/Categories/IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
+		B2EBCB180B34F439300D8F4192B0DFB2 /* WYLineChartPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYLineChartPoint.h; path = WYChart/Classes/WYLineChart/Main/WYLineChartPoint.h; sourceTree = "<group>"; };
+		B34D94CC5082128482106F107933246B /* IQNSArray+Sort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQNSArray+Sort.h"; path = "IQKeyboardManager/Categories/IQNSArray+Sort.h"; sourceTree = "<group>"; };
+		B3AA1371C69F6FEA62A4A02FE62FB98C /* IQUIScrollView+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIScrollView+Additions.m"; path = "IQKeyboardManager/Categories/IQUIScrollView+Additions.m"; sourceTree = "<group>"; };
+		B652DA13AA20CDD115E4907DD911818D /* WYMainPieChartView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYMainPieChartView.m; path = WYChart/Classes/WYPieChart/Components/WYMainPieChartView.m; sourceTree = "<group>"; };
+		B6B1FC25BD233A57B165D2E3E856C69A /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstants.h; path = IQKeyboardManager/Constants/IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
+		B7D87A16AFE3E1495BA3EAA07C9D1F74 /* IQBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQBarButtonItem.h; path = IQKeyboardManager/IQToolbar/IQBarButtonItem.h; sourceTree = "<group>"; };
+		B8D579D3C421D09E2D528C1BAFDC316D /* IQKeyboardManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardManager.m; path = IQKeyboardManager/IQKeyboardManager.m; sourceTree = "<group>"; };
+		BD2E63D141579D41B429487CE860B90F /* WYLineChartJunctionShape.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYLineChartJunctionShape.h; path = WYChart/Classes/WYLineChart/Foreground/WYLineChartJunctionShape.h; sourceTree = "<group>"; };
+		BDAF33180644CE9533F53D94281F82F0 /* Pods-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-test.release.xcconfig"; sourceTree = "<group>"; };
+		BF4D643872F2B84F51AE82D97F4BC7CC /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstantsInternal.h; path = IQKeyboardManager/Constants/IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
+		C4278AC1F65261CAC873B6175A85A5AF /* Pods-testUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C4DF44E0C5AFBE0620BF57237E9A55BA /* IQToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQToolbar.h; path = IQKeyboardManager/IQToolbar/IQToolbar.h; sourceTree = "<group>"; };
+		C5895D690ABD914A4C68D83D32B89441 /* WYLineChartCoordinateView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYLineChartCoordinateView.m; path = WYChart/Classes/WYLineChart/Background/WYLineChartCoordinateView.m; sourceTree = "<group>"; };
+		C78EC8966D098C45EB4B3D4D4DD3F94A /* libPods-testTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-testTests.a"; path = "libPods-testTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7958E2217CCE02DF912EE845CD92A3A /* Pods-test-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-test-acknowledgements.plist"; sourceTree = "<group>"; };
+		CB7982489277E90D09857086881B701F /* WYLineChartMainLineView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYLineChartMainLineView.h; path = WYChart/Classes/WYLineChart/Foreground/WYLineChartMainLineView.h; sourceTree = "<group>"; };
+		CEC00CA5D81EDC279611A4B2F55F8CD6 /* WYRadarChartModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYRadarChartModel.h; path = WYChart/Classes/WYRadarChart/Public/WYRadarChartModel.h; sourceTree = "<group>"; };
+		D147C985FDA48696F449306C20AB1AB2 /* WYLineChartJunctionShape.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYLineChartJunctionShape.m; path = WYChart/Classes/WYLineChart/Foreground/WYLineChartJunctionShape.m; sourceTree = "<group>"; };
+		D2BCF44FB0B2EA715646F499CC615D26 /* libWYChart.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libWYChart.a; path = libWYChart.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5D82ABD87153A46C7A5EF3512B6161B /* IQKeyboardManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManager.h; path = IQKeyboardManager/IQKeyboardManager.h; sourceTree = "<group>"; };
+		D867EE818863B103F38B69B42BBFD723 /* Pods-test-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-test-frameworks.sh"; sourceTree = "<group>"; };
+		DECE96DB53D2994B9F6AB524E16AAA1F /* NSArray+Utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Utils.h"; path = "WYChart/Classes/WYRadarChart/Utils/NSArray+Utils.h"; sourceTree = "<group>"; };
+		E38BB0D95FA0D0D415835E4873E5AF8C /* Pods-test-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-test-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E4AC3DFA80D261D410A972AEF47DAC2F /* Pods-testUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-testUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E5F748DA8F98E61F788C3488D6BA25DD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		E72D9F9911E6713BCF1BABAA852DC846 /* WYLineChartView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYLineChartView.h; path = WYChart/Classes/WYLineChart/Main/WYLineChartView.h; sourceTree = "<group>"; };
+		E73377D07D0172581DF7DBEA1C045AB1 /* WYPieChartCalculator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYPieChartCalculator.m; path = WYChart/Classes/WYPieChart/Main/WYPieChartCalculator.m; sourceTree = "<group>"; };
+		EA020E2B1F7AF2B2882F24E110961E06 /* THCalendarDatePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = THCalendarDatePicker.xcconfig; sourceTree = "<group>"; };
+		EA351C2109261145F5B20C87DEC72B61 /* WYLineChartReferenceLineView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYLineChartReferenceLineView.m; path = WYChart/Classes/WYLineChart/Foreground/WYLineChartReferenceLineView.m; sourceTree = "<group>"; };
+		ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F1754BB09BF5A93AC473389E23522CCF /* THDatePickerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = THDatePickerViewController.h; path = THCalendarDatePicker/THDatePickerViewController.h; sourceTree = "<group>"; };
+		F1E2B23CA980C91A4743F153A10DADB7 /* WYChart-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WYChart-dummy.m"; sourceTree = "<group>"; };
+		F48152E4A05321AC29AE6A162582F204 /* WYLineChartCoordinateView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYLineChartCoordinateView.h; path = WYChart/Classes/WYLineChart/Background/WYLineChartCoordinateView.h; sourceTree = "<group>"; };
+		F6ED24F13803FAF877441939C98C81DF /* WYLineChartCalculator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYLineChartCalculator.h; path = WYChart/Classes/WYLineChart/Main/WYLineChartCalculator.h; sourceTree = "<group>"; };
+		F6F8813C3EA058C91E824FB074131C48 /* Pods-testTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-testTests.release.xcconfig"; sourceTree = "<group>"; };
+		F77479A92E92DB906C76F115D6734AD5 /* libTHCalendarDatePicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTHCalendarDatePicker.a; path = libTHCalendarDatePicker.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE83D518891D344E8F55747222C01CC /* IQKeyboardManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManager-prefix.pch"; sourceTree = "<group>"; };
+		FB765A8D36D7EB4B8A77E8D83B552B6F /* WYLineChartPoint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYLineChartPoint.m; path = WYChart/Classes/WYLineChart/Main/WYLineChartPoint.m; sourceTree = "<group>"; };
+		FDBA94A94B982885ECCA1662BE8CD7CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		FE50C97577D05BC2462EF9FB6C9C2D10 /* NSDate+Difference.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Difference.m"; path = "THCalendarDatePicker/NSDate+Difference.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03959B9D7C5AD3A5EA5294D2F3898970 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97F27ED5A51613C68169522253F30520 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		603EB86CFC6FF4324A42A7172A457860 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8DC84F5B942614F33421402B9CA61F1 /* Foundation.framework in Frameworks */,
+				30B095B557E92522ABF722DFE7ACFAD4 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64786C9E4ED20F0FD5D947A7C759FE3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BBAE335CA7667E51CFA81BF17DD861C /* CoreGraphics.framework in Frameworks */,
+				3D51A7D14E04DEA3F615267326D9DF39 /* Foundation.framework in Frameworks */,
+				B3A6235D661F70BB8D33265485FD1EA9 /* QuartzCore.framework in Frameworks */,
+				149E5412AC3CAF625BE3BDDD01FAAA4E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		962C2C3086478BE3D185870313864E4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB8BD2C556835E16DE6C4DDD942E12F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B37793C4086613C4DB1374DBD230FC54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B7BE592B3200A0A7ACE704838785CBF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBD3512BDEDC9DA7BDE62B45D53F7CF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B70C09C8241D155758A8C417947AD5A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E24CA980132457EA87710A4FA1707135 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D669024B1F874718418C4E91CC24724C /* Foundation.framework in Frameworks */,
+				AFAD92D8C7D7681F60E253A205725272 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01E68007D605AC6C8637E9AF19F14C7D /* Pods-test */ = {
+			isa = PBXGroup;
+			children = (
+				E38BB0D95FA0D0D415835E4873E5AF8C /* Pods-test-acknowledgements.markdown */,
+				C7958E2217CCE02DF912EE845CD92A3A /* Pods-test-acknowledgements.plist */,
+				2B4827C42E8569F18ACF89A9DF4F3F86 /* Pods-test-dummy.m */,
+				D867EE818863B103F38B69B42BBFD723 /* Pods-test-frameworks.sh */,
+				A6F3025B64B4A1F6E551D8CC5E832B2C /* Pods-test-resources.sh */,
+				559769170B5C28FA20887FC49B6747A2 /* Pods-test.debug.xcconfig */,
+				BDAF33180644CE9533F53D94281F82F0 /* Pods-test.release.xcconfig */,
+			);
+			name = "Pods-test";
+			path = "Target Support Files/Pods-test";
+			sourceTree = "<group>";
+		};
+		0617DC8CDDFE315A3D1476D4F445042B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				83F4166E1F039A52A452F7ED70D635C1 /* IQKeyboardManager.xcconfig */,
+				4DBF537F71FE01F5D259AE24E4683443 /* IQKeyboardManager-dummy.m */,
+				FAE83D518891D344E8F55747222C01CC /* IQKeyboardManager-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IQKeyboardManager";
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F8FEF3140598EAB2B3D56BB84B5389A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		15A1717A07B5A025A06E8AA52F84D1B6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6A3710841738DB371DF94A550E52A5B9 /* IQKeyboardManager.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		19B0176CA7DF4FD06CC22074401621E8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7954A4406D0F3E721B2A2FDAB1F772A0 /* WYChart.xcconfig */,
+				F1E2B23CA980C91A4743F153A10DADB7 /* WYChart-dummy.m */,
+				81264F3F372F71E57F6ABE1CD51CC57B /* WYChart-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WYChart";
+			sourceTree = "<group>";
+		};
+		2336CDF7F13F602281DAF5D3E8B3448B /* THCalendarDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				60E5959A08F4AA21F73C039A053066F1 /* NSDate+Difference.h */,
+				FE50C97577D05BC2462EF9FB6C9C2D10 /* NSDate+Difference.m */,
+				14A0E7C745FAA832F30CA2720E7B6BF7 /* THDateDay.h */,
+				543D3E036C81D686F627DDA9A875299F /* THDateDay.m */,
+				F1754BB09BF5A93AC473389E23522CCF /* THDatePickerViewController.h */,
+				6FFC472D44CCEE8CAF15E121B77375FF /* THDatePickerViewController.m */,
+				2407B1AC5AB1BEC498B6E2B5B02F18DB /* Resources */,
+				8CB8347FC660BCD498171ED0DD4C125C /* Support Files */,
+			);
+			name = THCalendarDatePicker;
+			path = THCalendarDatePicker;
+			sourceTree = "<group>";
+		};
+		2407B1AC5AB1BEC498B6E2B5B02F18DB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B0983800F339164D4CDCF1E1379ADCD5 /* Images.xcassets */,
+				55780579D30228D4CC23266E6264A8ED /* THDateDay.xib */,
+				1602B41E356D6E63FB7733A08C02F629 /* THDatePickerViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		25B16E35B9B0B8CF9161707F57857809 /* IQKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				B7D87A16AFE3E1495BA3EAA07C9D1F74 /* IQBarButtonItem.h */,
+				6E024B2885CDF675AE16BFBD5888AFE4 /* IQBarButtonItem.m */,
+				D5D82ABD87153A46C7A5EF3512B6161B /* IQKeyboardManager.h */,
+				B8D579D3C421D09E2D528C1BAFDC316D /* IQKeyboardManager.m */,
+				B6B1FC25BD233A57B165D2E3E856C69A /* IQKeyboardManagerConstants.h */,
+				BF4D643872F2B84F51AE82D97F4BC7CC /* IQKeyboardManagerConstantsInternal.h */,
+				8566306C94A85275A0E970DB72487435 /* IQKeyboardReturnKeyHandler.h */,
+				4F2C45D38D5FF3D0419355F1997EADC1 /* IQKeyboardReturnKeyHandler.m */,
+				B34D94CC5082128482106F107933246B /* IQNSArray+Sort.h */,
+				5661D770C60FA0A4C5056F4A247B7B7F /* IQNSArray+Sort.m */,
+				A8ACC4B109569BD5E4EFCBA074214B27 /* IQPreviousNextView.h */,
+				39AD1699496B7EC55180263EE22A4055 /* IQPreviousNextView.m */,
+				0E94D894E896005BC8B59CF40ED414F6 /* IQTextView.h */,
+				346BF8A854A6F4EC8FAAB547B01719E0 /* IQTextView.m */,
+				60DE9DCCDAD23D4B0EEE6C901F3A42E3 /* IQTitleBarButtonItem.h */,
+				6E2314674C9E3294BC107EE3B871F736 /* IQTitleBarButtonItem.m */,
+				C4DF44E0C5AFBE0620BF57237E9A55BA /* IQToolbar.h */,
+				8D37C1349826E1DE02840B004B30F63C /* IQToolbar.m */,
+				64BE04E8D2CBEE7215A25B8C8427E9B1 /* IQUIScrollView+Additions.h */,
+				B3AA1371C69F6FEA62A4A02FE62FB98C /* IQUIScrollView+Additions.m */,
+				9E9A5C7965331DACEFD983E3B94446AD /* IQUITextFieldView+Additions.h */,
+				763A2E2D1A6FF066BD1D3B5F195F3839 /* IQUITextFieldView+Additions.m */,
+				B1DA56453A003E8BA6780349638DC28F /* IQUIView+Hierarchy.h */,
+				1C193E9E4B38B1FD217A6EA5A17D7D1D /* IQUIView+Hierarchy.m */,
+				89123E1A222D70A382B033153A87340E /* IQUIView+IQKeyboardToolbar.h */,
+				301B6EFC24878A6751BB520B03908E16 /* IQUIView+IQKeyboardToolbar.m */,
+				1055AB2FFFC9BB8D890A30E567AC4EBD /* IQUIViewController+Additions.h */,
+				8B75CBFE41FA66920DDCEDAAFB42BDFE /* IQUIViewController+Additions.m */,
+				69A8A94CC10691D0B0F5DA546F43E9C8 /* IQUIWindow+Hierarchy.h */,
+				AA8F28A45151D704258ED1D74875F239 /* IQUIWindow+Hierarchy.m */,
+				15A1717A07B5A025A06E8AA52F84D1B6 /* Resources */,
+				0617DC8CDDFE315A3D1476D4F445042B /* Support Files */,
+			);
+			name = IQKeyboardManager;
+			path = IQKeyboardManager;
+			sourceTree = "<group>";
+		};
+		3DB0EFDC16F1FAC20A9B09E32A083DBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B029A48A5954C36C1F5DD3283D6151AC /* libIQKeyboardManager.a */,
+				8BE7CF1379F6A91955ECD4EA0C1493CF /* libKNSemiModalViewController_hons82.a */,
+				8F6EC6B0288695E607DBA63C7AD889CA /* libPods-test.a */,
+				C78EC8966D098C45EB4B3D4D4DD3F94A /* libPods-testTests.a */,
+				16B06B4733A772BB13393FDE509C05CB /* libPods-testUITests.a */,
+				F77479A92E92DB906C76F115D6734AD5 /* libTHCalendarDatePicker.a */,
+				D2BCF44FB0B2EA715646F499CC615D26 /* libWYChart.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B4389C5E9A5D9BB7FF53C003D77D6BB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				90F76F5FB3C3815124A21E3911E859D2 /* KNSemiModalViewController_hons82.xcconfig */,
+				2092DCBDA7807DB8390E4E1C115C37AA /* KNSemiModalViewController_hons82-dummy.m */,
+				90C5D981C2FC9D2FC34DCAF60E31FF6F /* KNSemiModalViewController_hons82-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KNSemiModalViewController_hons82";
+			sourceTree = "<group>";
+		};
+		65F71A52009B1E0BF87D0E5D1C7582AB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				01E68007D605AC6C8637E9AF19F14C7D /* Pods-test */,
+				96D6C7C2CEB2C066C80A5796802AFCC7 /* Pods-testTests */,
+				D2A4C1EAEE230D1934A04DE01B6C7B9D /* Pods-testUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6A3647D7EFEAF0094DDC87F3B679F1CF /* WYChart */ = {
+			isa = PBXGroup;
+			children = (
+				DECE96DB53D2994B9F6AB524E16AAA1F /* NSArray+Utils.h */,
+				2B2B98C6A82A54EC8A960358EEB7C312 /* NSArray+Utils.m */,
+				20F991993658D0FEEC6C875AED4446E9 /* UIView+WYAnimation.h */,
+				7DDE530F9F4968947D9EAB37C29CAEE0 /* UIView+WYAnimation.m */,
+				A43233FDA5BECE0FA1908DD3B619EF1F /* WYChartCategory.h */,
+				4DD329309363CA1D9C973983A02D5F8C /* WYChartCategory.m */,
+				30F8E984C5BBF695F17960ECBB858D28 /* WYLineChartBackgroundView.h */,
+				116237137DFF8F3FACDD5852FC4E0A39 /* WYLineChartBackgroundView.m */,
+				F6ED24F13803FAF877441939C98C81DF /* WYLineChartCalculator.h */,
+				9F4A69F20153C6E2C6244AF321E1ACE5 /* WYLineChartCalculator.m */,
+				F48152E4A05321AC29AE6A162582F204 /* WYLineChartCoordinateView.h */,
+				C5895D690ABD914A4C68D83D32B89441 /* WYLineChartCoordinateView.m */,
+				4B8AE73A750EA2912BE00A59AB93FE46 /* WYLineChartDefine.h */,
+				BD2E63D141579D41B429487CE860B90F /* WYLineChartJunctionShape.h */,
+				D147C985FDA48696F449306C20AB1AB2 /* WYLineChartJunctionShape.m */,
+				766B59C70EC531CF82DDD477BA52502F /* WYLineChartLabelsView.h */,
+				18BA54C6B70730AF8FE2EC05957F37E2 /* WYLineChartLabelsView.m */,
+				CB7982489277E90D09857086881B701F /* WYLineChartMainLineView.h */,
+				5668EA50825AAB7B8A12B90383342B7E /* WYLineChartMainLineView.m */,
+				B2EBCB180B34F439300D8F4192B0DFB2 /* WYLineChartPoint.h */,
+				FB765A8D36D7EB4B8A77E8D83B552B6F /* WYLineChartPoint.m */,
+				09D075A10268AC05FFC52CA6D53F6FA5 /* WYLineChartReferenceLineView.h */,
+				EA351C2109261145F5B20C87DEC72B61 /* WYLineChartReferenceLineView.m */,
+				E72D9F9911E6713BCF1BABAA852DC846 /* WYLineChartView.h */,
+				AF5C8DD7E07AFE8AB29759137EB48E56 /* WYLineChartView.m */,
+				28CAF9F604AABE781C3B86C1C16D4C7F /* WYMainPieChartView.h */,
+				B652DA13AA20CDD115E4907DD911818D /* WYMainPieChartView.m */,
+				0126C2647BB756E0DCC34D381E495D99 /* WYPieCenterCircle.h */,
+				1FCA76811C590E36DDAFF4FCF51B2DBF /* WYPieCenterCircle.m */,
+				0852A272A55023A7305492BD7107AD15 /* WYPieChartCalculator.h */,
+				E73377D07D0172581DF7DBEA1C045AB1 /* WYPieChartCalculator.m */,
+				28DA384864ECFFAC2D6A9E6FB3360396 /* WYPieChartForegroundView.h */,
+				7234BED7ECB5AD040E0100021C1FFE4F /* WYPieChartForegroundView.m */,
+				8CD5ACBB2D7800C319E128078CBC2D95 /* WYPieChartView.h */,
+				6A67BE753D7B118DA6EA7D80738D5F0C /* WYPieChartView.m */,
+				419BFC1E0B6BDD541A4F47ADB9B68697 /* WYPieSector.h */,
+				7A08FE7301138E682FBCA0EC7EA78F2B /* WYPieSector.m */,
+				43857506D84B3E221F838215EB21C872 /* WYRadarChartDimensionView.h */,
+				7E58C3266C4408D547EBB112557FF97A /* WYRadarChartDimensionView.m */,
+				2BE8DF0FA66B578BFA4A9DBEDF55776B /* WYRadarChartItemView.h */,
+				9809F9F2F721E7C9088BA76DC13B5BC5 /* WYRadarChartItemView.m */,
+				48E2ABD27E5EEBCEB692952DC4DEBB0E /* WYRadarChartMainView.h */,
+				9793343456215965CA0D93CE3A7A5FF9 /* WYRadarChartMainView.m */,
+				CEC00CA5D81EDC279611A4B2F55F8CD6 /* WYRadarChartModel.h */,
+				4AC8DEAE5C3539EEC0DE943DFFDEFC37 /* WYRadarChartModel.m */,
+				7E889407A82E3222D8D35BB9873BBCC3 /* WYRadarChartView.h */,
+				05844192F683DF4804CC7EEF1DAE53BD /* WYRadarChartView.m */,
+				8F1DA6896DCBA61FA89B4FD496C654B2 /* WYSectorLayer.h */,
+				189846D56D7C91F755F595687AA895C3 /* WYSectorLayer.m */,
+				A2F412CC5EB02D1D848A41D584AFDC2D /* YYWeakProxy.h */,
+				20B269639120634A5736A60A1CE2B868 /* YYWeakProxy.m */,
+				19B0176CA7DF4FD06CC22074401621E8 /* Support Files */,
+			);
+			name = WYChart;
+			path = WYChart;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				8010A6FBB4C1AA62A3F72497DE285E80 /* Pods */,
+				3DB0EFDC16F1FAC20A9B09E32A083DBA /* Products */,
+				65F71A52009B1E0BF87D0E5D1C7582AB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8010A6FBB4C1AA62A3F72497DE285E80 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25B16E35B9B0B8CF9161707F57857809 /* IQKeyboardManager */,
+				9172FACC33FC90476BFF8B3ABDBADDE2 /* KNSemiModalViewController_hons82 */,
+				2336CDF7F13F602281DAF5D3E8B3448B /* THCalendarDatePicker */,
+				6A3647D7EFEAF0094DDC87F3B679F1CF /* WYChart */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8CB8347FC660BCD498171ED0DD4C125C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA020E2B1F7AF2B2882F24E110961E06 /* THCalendarDatePicker.xcconfig */,
+				0389C7D44519264D3E83704ED5641297 /* THCalendarDatePicker-dummy.m */,
+				32CC9709F0F9BF5585DD582AA6804223 /* THCalendarDatePicker-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/THCalendarDatePicker";
+			sourceTree = "<group>";
+		};
+		8F8FEF3140598EAB2B3D56BB84B5389A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3292CC8DBF6352C2BF2B949CB548248F /* CoreGraphics.framework */,
+				ECB56A22A987E846FF65248DA108CAD2 /* Foundation.framework */,
+				E5F748DA8F98E61F788C3488D6BA25DD /* QuartzCore.framework */,
+				FDBA94A94B982885ECCA1662BE8CD7CF /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9172FACC33FC90476BFF8B3ABDBADDE2 /* KNSemiModalViewController_hons82 */ = {
+			isa = PBXGroup;
+			children = (
+				28E06D602E98BEC63F17094BB7FD68D2 /* UIViewController+KNSemiModal.h */,
+				160FFD10AB23DACC98F25E2C7243FA7D /* UIViewController+KNSemiModal.m */,
+				5B4389C5E9A5D9BB7FF53C003D77D6BB /* Support Files */,
+			);
+			name = KNSemiModalViewController_hons82;
+			path = KNSemiModalViewController_hons82;
+			sourceTree = "<group>";
+		};
+		96D6C7C2CEB2C066C80A5796802AFCC7 /* Pods-testTests */ = {
+			isa = PBXGroup;
+			children = (
+				142306E1958012317A3F0B6ABC03472C /* Pods-testTests-acknowledgements.markdown */,
+				037BF61A9CFB8E13F7CA7C7959B03412 /* Pods-testTests-acknowledgements.plist */,
+				5BEF878B16E96BD7E7E99009BA40E6FD /* Pods-testTests-dummy.m */,
+				439796C4C0499AF5A5EBF7865AB69225 /* Pods-testTests-frameworks.sh */,
+				313DFC5CE1CF7460EBCE2711D94D42AF /* Pods-testTests-resources.sh */,
+				092F2638E51C22BB2ABE29C41B1C2155 /* Pods-testTests.debug.xcconfig */,
+				F6F8813C3EA058C91E824FB074131C48 /* Pods-testTests.release.xcconfig */,
+			);
+			name = "Pods-testTests";
+			path = "Target Support Files/Pods-testTests";
+			sourceTree = "<group>";
+		};
+		D2A4C1EAEE230D1934A04DE01B6C7B9D /* Pods-testUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E4AC3DFA80D261D410A972AEF47DAC2F /* Pods-testUITests-acknowledgements.markdown */,
+				448D70E7D793CFB8A2D1A1A0809FF9EA /* Pods-testUITests-acknowledgements.plist */,
+				1942EEE8E94EAD6026221C7E9D8EE03B /* Pods-testUITests-dummy.m */,
+				1B8F08E7C8B705C4A0C7D7C3012AA50E /* Pods-testUITests-frameworks.sh */,
+				A98D9C5B155AF6268D1F3ADC2A1BC58D /* Pods-testUITests-resources.sh */,
+				C4278AC1F65261CAC873B6175A85A5AF /* Pods-testUITests.debug.xcconfig */,
+				37FD3C76C47CEEA02A99351A68477FA9 /* Pods-testUITests.release.xcconfig */,
+			);
+			name = "Pods-testUITests";
+			path = "Target Support Files/Pods-testUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3BB32FFA9CFEC89EF803C6A9C28804EC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28B30D7AF077B7BBD7361FB6AC3AA2BC /* IQBarButtonItem.h in Headers */,
+				71DFF4FCF490E7C2983380C32C3E05A6 /* IQKeyboardManager.h in Headers */,
+				D5B7D8C76ECDAE3675FED3DDD52A1A1F /* IQKeyboardManagerConstants.h in Headers */,
+				9216E6BF8AF8A584B78667EA7D41DE2F /* IQKeyboardManagerConstantsInternal.h in Headers */,
+				1A12AC09DAEE727DBD9D111A2B098516 /* IQKeyboardReturnKeyHandler.h in Headers */,
+				6DD7A82ED48E61FD8C2BA3EA9649DD2E /* IQNSArray+Sort.h in Headers */,
+				43643239F78BFE4405AD5092ACC1B176 /* IQPreviousNextView.h in Headers */,
+				53E16175D3F285FCD0AA297379790B78 /* IQTextView.h in Headers */,
+				F88EBCF213D5CDC9DD9761F38AC8851A /* IQTitleBarButtonItem.h in Headers */,
+				4A49D2D82248088CA84188952B9E69BA /* IQToolbar.h in Headers */,
+				82BA014C81EE79BD7F043D96AB562DB6 /* IQUIScrollView+Additions.h in Headers */,
+				17045EA58EB53C66039B73AFDA4BB11F /* IQUITextFieldView+Additions.h in Headers */,
+				612D7698019865805EFC789DCE5858AF /* IQUIView+Hierarchy.h in Headers */,
+				08C263DF6F9031C2ED55A0D16722652A /* IQUIView+IQKeyboardToolbar.h in Headers */,
+				F02320ABC117E8ACC68CA867458B20F5 /* IQUIViewController+Additions.h in Headers */,
+				5A2FF5F16ABBFABA5EC18B9AF230429E /* IQUIWindow+Hierarchy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CDE001572624417F5164AFA782429C9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415BF3795764F16037457F1914F75C3E /* NSDate+Difference.h in Headers */,
+				8121498B9DD22BC765FBDE1EDC8E2F4D /* THDateDay.h in Headers */,
+				D8F46835ADAC88C918BAC63AC27F320C /* THDatePickerViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95085E60F6243B298F1BAB6488B1766A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18734F3C0D95AC6B07CA2570A27B994D /* NSArray+Utils.h in Headers */,
+				87F4759A96F578404EFE6516033D1200 /* UIView+WYAnimation.h in Headers */,
+				230A6CC4FF1152E989B2B23E36BD9CFF /* WYChartCategory.h in Headers */,
+				C0A15B8297C741F2DA9954C1F1C8FD66 /* WYLineChartBackgroundView.h in Headers */,
+				5CF3BBFA177DB21607B61912157BB050 /* WYLineChartCalculator.h in Headers */,
+				45B417AAD871D50F328880AE7481B2A9 /* WYLineChartCoordinateView.h in Headers */,
+				6B2C6321E1191C0C6DFCC016B43E3D81 /* WYLineChartDefine.h in Headers */,
+				F9A1A4AAC0166EB90E64F7021ADB123C /* WYLineChartJunctionShape.h in Headers */,
+				4D9DAF12A0D80ABD56B5780BD49CB2A6 /* WYLineChartLabelsView.h in Headers */,
+				13047750AB44E00B9952AE78741A3CB7 /* WYLineChartMainLineView.h in Headers */,
+				48FB0558D38339DCBBA1D5117BAFC971 /* WYLineChartPoint.h in Headers */,
+				08D9A697D6712DA95EBB4F77E320506E /* WYLineChartReferenceLineView.h in Headers */,
+				93965DB6954BD7C465FB86923921F390 /* WYLineChartView.h in Headers */,
+				DCA7CD16B95673D3BB3F2C5D4059F6E3 /* WYMainPieChartView.h in Headers */,
+				5339D53DF08E6E2E98F13CC18A9D3B8F /* WYPieCenterCircle.h in Headers */,
+				A2FFBC5AF7AB4ADAA4FCB847733E58E7 /* WYPieChartCalculator.h in Headers */,
+				0ECD7ADA33F4ABCF501AB1E192A32C0C /* WYPieChartForegroundView.h in Headers */,
+				BAD0FC3B9D02A9F3D18F8A0C5FFACF9C /* WYPieChartView.h in Headers */,
+				B38AD268CC059B266D9B4D024B4DD367 /* WYPieSector.h in Headers */,
+				183D006015D39AB178DE4CB6A18FB3CC /* WYRadarChartDimensionView.h in Headers */,
+				EC820BB71466199D28D571622F37568A /* WYRadarChartItemView.h in Headers */,
+				4005E52555E5ECD88C055EAE1D64A48D /* WYRadarChartMainView.h in Headers */,
+				E4B3F5CC63950ACA87A271244165EBC1 /* WYRadarChartModel.h in Headers */,
+				11902A4A2B53E3B10C343D7F5DFCB7B8 /* WYRadarChartView.h in Headers */,
+				81356E3F3B0398342380F9A8A284B1FB /* WYSectorLayer.h in Headers */,
+				16E614E2FFDFB33C9CCE743FD72DDC6C /* YYWeakProxy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1948816D04177EEA9E7378469EAD368 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA3C206468419DD3F043BC04B460BFC4 /* UIViewController+KNSemiModal.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		06BD3D2C3F0EF1FE28983CDAA83EAC83 /* KNSemiModalViewController_hons82 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B20D41E3D8031739F244E679EA261D8 /* Build configuration list for PBXNativeTarget "KNSemiModalViewController_hons82" */;
+			buildPhases = (
+				E5C3A0A47A5F8DA1562748F10E6492E6 /* Sources */,
+				E24CA980132457EA87710A4FA1707135 /* Frameworks */,
+				B1948816D04177EEA9E7378469EAD368 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KNSemiModalViewController_hons82;
+			productName = KNSemiModalViewController_hons82;
+			productReference = 8BE7CF1379F6A91955ECD4EA0C1493CF /* libKNSemiModalViewController_hons82.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		48BEBE593DA28C948F1CCD3D333857E3 /* Pods-testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49218F72C1D1B22D63CB5C869711BCC1 /* Build configuration list for PBXNativeTarget "Pods-testTests" */;
+			buildPhases = (
+				FA67EFB771783EB05596BDDB40F5E65F /* Sources */,
+				BBD3512BDEDC9DA7BDE62B45D53F7CF6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-testTests";
+			productName = "Pods-testTests";
+			productReference = C78EC8966D098C45EB4B3D4D4DD3F94A /* libPods-testTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6D6EDEA34D2366677FFEEBEB00267BA5 /* WYChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1A89E62C437D8D6FC9D39BCCFFAC5BB /* Build configuration list for PBXNativeTarget "WYChart" */;
+			buildPhases = (
+				04D0AF53028F75A5F43D7ECC4AA2EFFC /* Sources */,
+				B37793C4086613C4DB1374DBD230FC54 /* Frameworks */,
+				95085E60F6243B298F1BAB6488B1766A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WYChart;
+			productName = WYChart;
+			productReference = D2BCF44FB0B2EA715646F499CC615D26 /* libWYChart.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		904F4F27FD314010A3812EB2A9306183 /* IQKeyboardManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A073C78D19617C74EEAEA91C3038721 /* Build configuration list for PBXNativeTarget "IQKeyboardManager" */;
+			buildPhases = (
+				F9C18451875B96F53877B78BC437E9BC /* Sources */,
+				64786C9E4ED20F0FD5D947A7C759FE3B /* Frameworks */,
+				3BB32FFA9CFEC89EF803C6A9C28804EC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IQKeyboardManager;
+			productName = IQKeyboardManager;
+			productReference = B029A48A5954C36C1F5DD3283D6151AC /* libIQKeyboardManager.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BF62CBC9B8839503E75594D7766A2456 /* Pods-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D80D6F014050B65DAF18545AFA9B1F53 /* Build configuration list for PBXNativeTarget "Pods-test" */;
+			buildPhases = (
+				D74944DF6E7362C6A524E0079D2205F2 /* Sources */,
+				962C2C3086478BE3D185870313864E4C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04AADDAC735A399BA7D86EF80732DAA3 /* PBXTargetDependency */,
+				4322CC32912259DBA0090C5A1B983476 /* PBXTargetDependency */,
+				ADBF22C11099056E328FF7BE6DAD3B72 /* PBXTargetDependency */,
+				458C3A728C6B562BD3ACFB87C8361012 /* PBXTargetDependency */,
+			);
+			name = "Pods-test";
+			productName = "Pods-test";
+			productReference = 8F6EC6B0288695E607DBA63C7AD889CA /* libPods-test.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CA97983989BBA2806F01C7F527F71D15 /* Pods-testUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A249994F8B53745FEB01B74BC3D22C7 /* Build configuration list for PBXNativeTarget "Pods-testUITests" */;
+			buildPhases = (
+				3AA0BF63606E8CC586F3E7CD03214391 /* Sources */,
+				03959B9D7C5AD3A5EA5294D2F3898970 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-testUITests";
+			productName = "Pods-testUITests";
+			productReference = 16B06B4733A772BB13393FDE509C05CB /* libPods-testUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CD232CD076836DFFE27D1EA581358813 /* THCalendarDatePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C9CCF58B5AE21522E8C7293493FE806 /* Build configuration list for PBXNativeTarget "THCalendarDatePicker" */;
+			buildPhases = (
+				BBD98BECF84008829806FA77D12866A7 /* Sources */,
+				603EB86CFC6FF4324A42A7172A457860 /* Frameworks */,
+				5CDE001572624417F5164AFA782429C9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70BE466F5C2CBC9AD28A0A92C79B5E1E /* PBXTargetDependency */,
+			);
+			name = THCalendarDatePicker;
+			productName = THCalendarDatePicker;
+			productReference = F77479A92E92DB906C76F115D6734AD5 /* libTHCalendarDatePicker.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3DB0EFDC16F1FAC20A9B09E32A083DBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				904F4F27FD314010A3812EB2A9306183 /* IQKeyboardManager */,
+				06BD3D2C3F0EF1FE28983CDAA83EAC83 /* KNSemiModalViewController_hons82 */,
+				BF62CBC9B8839503E75594D7766A2456 /* Pods-test */,
+				48BEBE593DA28C948F1CCD3D333857E3 /* Pods-testTests */,
+				CA97983989BBA2806F01C7F527F71D15 /* Pods-testUITests */,
+				CD232CD076836DFFE27D1EA581358813 /* THCalendarDatePicker */,
+				6D6EDEA34D2366677FFEEBEB00267BA5 /* WYChart */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04D0AF53028F75A5F43D7ECC4AA2EFFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7949BA708CF4E6C09A9E042F6D60566E /* NSArray+Utils.m in Sources */,
+				8E42A1D761E617715DCD01AC8A99C0C4 /* UIView+WYAnimation.m in Sources */,
+				4AA1A62EE8B2DE0609FBD86A498DD3F1 /* WYChart-dummy.m in Sources */,
+				758E8F22C29D723BB90E8A0B306D4D8D /* WYChartCategory.m in Sources */,
+				005DE9809ACDA9DF5E7ECA82E98C350B /* WYLineChartBackgroundView.m in Sources */,
+				7F4A62D0A31131C03C92EE642324AC9F /* WYLineChartCalculator.m in Sources */,
+				22DB5D3EA9288F23989018C4D39704A8 /* WYLineChartCoordinateView.m in Sources */,
+				8577CB81855FBF227242AA3FDDEA8F86 /* WYLineChartJunctionShape.m in Sources */,
+				9865E65B9600E6B97CB23DBBA49397BE /* WYLineChartLabelsView.m in Sources */,
+				7102B9C56FA582BEEAD53FBD969591CB /* WYLineChartMainLineView.m in Sources */,
+				C775040830F301F1C7EBFD252F694E88 /* WYLineChartPoint.m in Sources */,
+				058D6C02A265FEEE975E31629BEABF39 /* WYLineChartReferenceLineView.m in Sources */,
+				142EC5BED5C36E97B4639B5E82E70876 /* WYLineChartView.m in Sources */,
+				4265537759F6B7D4F53144196C1F12FC /* WYMainPieChartView.m in Sources */,
+				9EA3FD1E9A7D0DF1E6464F15152243B9 /* WYPieCenterCircle.m in Sources */,
+				4F6210D7957ADD2938FBE880921D3AB2 /* WYPieChartCalculator.m in Sources */,
+				3925A44D3628D89C93E7AA7AAB836CC6 /* WYPieChartForegroundView.m in Sources */,
+				60EF0D14103609E77A230865F572723C /* WYPieChartView.m in Sources */,
+				BC8B8865BDEF135CA978D83D0E3F9DDA /* WYPieSector.m in Sources */,
+				769D4A381A03A62C52FA4460D247391C /* WYRadarChartDimensionView.m in Sources */,
+				546EEE7896AA204EFE82ADD71D11E088 /* WYRadarChartItemView.m in Sources */,
+				0729077CAB19DFB78C1DD7028178738B /* WYRadarChartMainView.m in Sources */,
+				D6EFB55BD1DAB063EB4657FDE2CFD986 /* WYRadarChartModel.m in Sources */,
+				F4EB688135081A3D48508DD442CC97A5 /* WYRadarChartView.m in Sources */,
+				89D07A7329A0BE34A3B5451C6D4A18A1 /* WYSectorLayer.m in Sources */,
+				053D7EA6813F0153A4E13A8EBE2CF2FF /* YYWeakProxy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AA0BF63606E8CC586F3E7CD03214391 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77DE67F588A033DB43017A7B6625F450 /* Pods-testUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBD98BECF84008829806FA77D12866A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1453BE44240CC09697CF591EC3124F1F /* NSDate+Difference.m in Sources */,
+				B62A6E769C064D5657DF57B35F650446 /* THCalendarDatePicker-dummy.m in Sources */,
+				E74CA3BD0386E8FEC386095AA42BB360 /* THDateDay.m in Sources */,
+				4901BCCDED468EE008A6E86B59D9969C /* THDatePickerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74944DF6E7362C6A524E0079D2205F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D76E8958D22EAE2062CAE1A704B538F3 /* Pods-test-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5C3A0A47A5F8DA1562748F10E6492E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC00FF43965082D4FEEE4D1FB0DECE9 /* KNSemiModalViewController_hons82-dummy.m in Sources */,
+				F367085B1BD58C97F9FCED8C6A0FA53E /* UIViewController+KNSemiModal.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9C18451875B96F53877B78BC437E9BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E85D1CC225E16C66FF845C84EC23B5 /* IQBarButtonItem.m in Sources */,
+				9BAB868CD352FA0A0F9A81D0B22CDBB7 /* IQKeyboardManager-dummy.m in Sources */,
+				FD4DA8F8F51FBE50740629944BBEBAD4 /* IQKeyboardManager.m in Sources */,
+				FD191B7D495F379CAE5D676EDD6D198B /* IQKeyboardReturnKeyHandler.m in Sources */,
+				D7F0B4172AD07FC9E4C6AA761FC069CD /* IQNSArray+Sort.m in Sources */,
+				D6B65E7DBBF8D21997C3EE85152B95FB /* IQPreviousNextView.m in Sources */,
+				291917106FFE5E242919B57386FBF2D5 /* IQTextView.m in Sources */,
+				1307DFA5C6BAC0A80D739B523F0D5247 /* IQTitleBarButtonItem.m in Sources */,
+				2CE1F5D65AC4F83BA81D8A1CC93EDB73 /* IQToolbar.m in Sources */,
+				366AE2A573933F601B7DEF7A62FE6657 /* IQUIScrollView+Additions.m in Sources */,
+				3DA34CB466469ADCA4BE42937E580AB8 /* IQUITextFieldView+Additions.m in Sources */,
+				287DB473D0F6D35B5839EDC75F207060 /* IQUIView+Hierarchy.m in Sources */,
+				78435610B927B7501F678EEA1FC136D9 /* IQUIView+IQKeyboardToolbar.m in Sources */,
+				1FE215BF6E333819BA7309B141A776E5 /* IQUIViewController+Additions.m in Sources */,
+				C25A3CE36F6D477F77AAE1CCCF454108 /* IQUIWindow+Hierarchy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA67EFB771783EB05596BDDB40F5E65F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				389DFEDAD310A3DB6E030755A151AFFD /* Pods-testTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04AADDAC735A399BA7D86EF80732DAA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IQKeyboardManager;
+			target = 904F4F27FD314010A3812EB2A9306183 /* IQKeyboardManager */;
+			targetProxy = 319055BA7807E68D1429F0A0A9FAD876 /* PBXContainerItemProxy */;
+		};
+		4322CC32912259DBA0090C5A1B983476 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KNSemiModalViewController_hons82;
+			target = 06BD3D2C3F0EF1FE28983CDAA83EAC83 /* KNSemiModalViewController_hons82 */;
+			targetProxy = F36F7DDC1F1C43BA1A727AA153B0B487 /* PBXContainerItemProxy */;
+		};
+		458C3A728C6B562BD3ACFB87C8361012 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WYChart;
+			target = 6D6EDEA34D2366677FFEEBEB00267BA5 /* WYChart */;
+			targetProxy = 97D9BB4A989C173A1639A0BE663A91F2 /* PBXContainerItemProxy */;
+		};
+		70BE466F5C2CBC9AD28A0A92C79B5E1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KNSemiModalViewController_hons82;
+			target = 06BD3D2C3F0EF1FE28983CDAA83EAC83 /* KNSemiModalViewController_hons82 */;
+			targetProxy = CAF57D78C072C273DC16523DDF8DD303 /* PBXContainerItemProxy */;
+		};
+		ADBF22C11099056E328FF7BE6DAD3B72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = THCalendarDatePicker;
+			target = CD232CD076836DFFE27D1EA581358813 /* THCalendarDatePicker */;
+			targetProxy = B4B9BA66DE5BBB113035F954A62CEE9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E48448B424485A8B6DF90EFA058CA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83F4166E1F039A52A452F7ED70D635C1 /* IQKeyboardManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManager/IQKeyboardManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0848D796AEC1B555F1B901450C3CD72B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA020E2B1F7AF2B2882F24E110961E06 /* THCalendarDatePicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/THCalendarDatePicker/THCalendarDatePicker-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08517F51F478482C1B5676FB652D18FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7954A4406D0F3E721B2A2FDAB1F772A0 /* WYChart.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WYChart/WYChart-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16E9E6614DB42131FACA603B30A976C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37FD3C76C47CEEA02A99351A68477FA9 /* Pods-testUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F97130B0E5E46680CE42B2F44196525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDAF33180644CE9533F53D94281F82F0 /* Pods-test.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EFDBAE53E085D952AA8683AA1A2E458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4278AC1F65261CAC873B6175A85A5AF /* Pods-testUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		621AB785940626574F07364CB14760E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6563E9DE5441DE29CF222AF79D545D07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6F8813C3EA058C91E824FB074131C48 /* Pods-testTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C4D11399EBCE1F1B46C7EB3A51E2D83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90F76F5FB3C3815124A21E3911E859D2 /* KNSemiModalViewController_hons82.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/KNSemiModalViewController_hons82/KNSemiModalViewController_hons82-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B57C09D404C607DDE283C5C44183B2A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BD2493092F093DA17A07A0FB6779592F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83F4166E1F039A52A452F7ED70D635C1 /* IQKeyboardManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManager/IQKeyboardManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C43BAB2A2347A7F05A2F784085F6C701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 559769170B5C28FA20887FC49B6747A2 /* Pods-test.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D62FCB49DC00BFF115F8B783A1DDCB29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 092F2638E51C22BB2ABE29C41B1C2155 /* Pods-testTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA761A1E50D0F234C67C2BDFCE94C3F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7954A4406D0F3E721B2A2FDAB1F772A0 /* WYChart.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/WYChart/WYChart-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDCADFE1848809BEFFC410FDEBFB52C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90F76F5FB3C3815124A21E3911E859D2 /* KNSemiModalViewController_hons82.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/KNSemiModalViewController_hons82/KNSemiModalViewController_hons82-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAF49964746D111246B2E723B6555153 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA020E2B1F7AF2B2882F24E110961E06 /* THCalendarDatePicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/THCalendarDatePicker/THCalendarDatePicker-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B20D41E3D8031739F244E679EA261D8 /* Build configuration list for PBXNativeTarget "KNSemiModalViewController_hons82" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C4D11399EBCE1F1B46C7EB3A51E2D83 /* Debug */,
+				EDCADFE1848809BEFFC410FDEBFB52C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57C09D404C607DDE283C5C44183B2A1 /* Debug */,
+				621AB785940626574F07364CB14760E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A073C78D19617C74EEAEA91C3038721 /* Build configuration list for PBXNativeTarget "IQKeyboardManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD2493092F093DA17A07A0FB6779592F /* Debug */,
+				00E48448B424485A8B6DF90EFA058CA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49218F72C1D1B22D63CB5C869711BCC1 /* Build configuration list for PBXNativeTarget "Pods-testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D62FCB49DC00BFF115F8B783A1DDCB29 /* Debug */,
+				6563E9DE5441DE29CF222AF79D545D07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C9CCF58B5AE21522E8C7293493FE806 /* Build configuration list for PBXNativeTarget "THCalendarDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0848D796AEC1B555F1B901450C3CD72B /* Debug */,
+				FAF49964746D111246B2E723B6555153 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A249994F8B53745FEB01B74BC3D22C7 /* Build configuration list for PBXNativeTarget "Pods-testUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EFDBAE53E085D952AA8683AA1A2E458 /* Debug */,
+				16E9E6614DB42131FACA603B30A976C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1A89E62C437D8D6FC9D39BCCFFAC5BB /* Build configuration list for PBXNativeTarget "WYChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA761A1E50D0F234C67C2BDFCE94C3F5 /* Debug */,
+				08517F51F478482C1B5676FB652D18FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D80D6F014050B65DAF18545AFA9B1F53 /* Build configuration list for PBXNativeTarget "Pods-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C43BAB2A2347A7F05A2F784085F6C701 /* Debug */,
+				1F97130B0E5E46680CE42B2F44196525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
